@@ -1,0 +1,150 @@
+//module #2
+var _ = require('lodash');
+
+var people = [{
+  "id": 1,
+  "first_name": "Norma",
+  "last_name": "Knight",
+  "email": "nknight0@ihg.com",
+  "gender": "Female",
+  "ip_address": "48.104.141.126"
+}, {
+  "id": 2,
+  "first_name": "Anne",
+  "last_name": "Henderson",
+  "email": "ahenderson1@zimbio.com",
+  "gender": "Female",
+  "ip_address": "247.3.56.223"
+}, {
+  "id": 3,
+  "first_name": "Virginia",
+  "last_name": "Turner",
+  "email": "vturner2@networksolutions.com",
+  "gender": "Female",
+  "ip_address": "202.121.73.73"
+}, {
+  "id": 4,
+  "first_name": "Diane",
+  "last_name": "Vasquez",
+  "email": "dvasquez3@wikia.com",
+  "gender": "Female",
+  "ip_address": "128.140.66.117"
+}, {
+  "id": 5,
+  "first_name": "Phillip",
+  "last_name": "Hill",
+  "email": "phill4@shop-pro.jp",
+  "gender": "Male",
+  "ip_address": "181.107.238.196"
+}, {
+  "id": 6,
+  "first_name": "Johnny",
+  "last_name": "Wilson",
+  "email": "jwilson5@trellian.com",
+  "gender": "Male",
+  "ip_address": "55.4.115.26"
+}, {
+  "id": 7,
+  "first_name": "Rachel",
+  "last_name": "Hayes",
+  "email": "rhayes6@odnoklassniki.ru",
+  "gender": "Female",
+  "ip_address": "179.21.188.118"
+}, {
+  "id": 8,
+  "first_name": "Brandon",
+  "last_name": "Crawford",
+  "email": "bcrawford7@admin.ch",
+  "gender": "Male",
+  "ip_address": "232.235.201.160"
+}, {
+  "id": 9,
+  "first_name": "Elizabeth",
+  "last_name": "Baker",
+  "email": "ebaker8@bizjournals.com",
+  "gender": "Female",
+  "ip_address": "113.109.239.204"
+}, {
+  "id": 10,
+  "first_name": "Paul",
+  "last_name": "Jones",
+  "email": "pjones9@indiegogo.com",
+  "gender": "Male",
+  "ip_address": "65.91.26.242"
+}, {
+  "id": 11,
+  "first_name": "Cheryl",
+  "last_name": "Andrews",
+  "email": "candrewsa@trellian.com",
+  "gender": "Female",
+  "ip_address": "30.76.237.16"
+}, {
+  "id": 12,
+  "first_name": "Brian",
+  "last_name": "Gray",
+  "email": "bgrayb@cdbaby.com",
+  "gender": "Male",
+  "ip_address": "166.49.122.131"
+}, {
+  "id": 13,
+  "first_name": "Nicole",
+  "last_name": "Barnes",
+  "email": "nbarnesc@delicious.com",
+  "gender": "Female",
+  "ip_address": "207.102.156.38"
+}, {
+  "id": 14,
+  "first_name": "Frances",
+  "last_name": "Mcdonald",
+  "email": "fmcdonaldd@irs.gov",
+  "gender": "Female",
+  "ip_address": "131.208.212.250"
+}, {
+  "id": 15,
+  "first_name": "Janice",
+  "last_name": "Hicks",
+  "email": "jhickse@apache.org",
+  "gender": "Female",
+  "ip_address": "242.228.93.86"
+}, {
+  "id": 16,
+  "first_name": "Earl",
+  "last_name": "Crawford",
+  "email": "ecrawfordf@tripadvisor.com",
+  "gender": "Male",
+  "ip_address": "112.182.200.48"
+}, {
+  "id": 17,
+  "first_name": "Michelle",
+  "last_name": "Fowler",
+  "email": "mfowlerg@rambler.ru",
+  "gender": "Female",
+  "ip_address": "207.64.185.46"
+}, {
+  "id": 18,
+  "first_name": "Emily",
+  "last_name": "Elliott",
+  "email": "eelliotth@t-online.de",
+  "gender": "Female",
+  "ip_address": "41.56.242.132"
+}, {
+  "id": 19,
+  "first_name": "Jesse",
+  "last_name": "Stewart",
+  "email": "jstewarti@webs.com",
+  "gender": "Male",
+  "ip_address": "230.200.219.135"
+}, {
+  "id": 20,
+  "first_name": "Charles",
+  "last_name": "Tucker",
+  "email": "ctuckerj@google.com.br",
+  "gender": "Male",
+  "ip_address": "145.115.4.247"
+}];
+
+var femaleCount = _.filter(people, {gender: "Female"}).length;
+
+alert(femaleCount + " females!");
+
+console.log("module2 stuff");
